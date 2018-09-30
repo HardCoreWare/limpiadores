@@ -6,11 +6,11 @@ class quienes extends view{
 
     public function __construct(){
 
-        $this->template('head','home');
-        $this->template('nav','home');
-        $this->template('header','home');
-        $this->template('wellcome','home');
-        $this->template('feet','home');
+        $this->template('head','quienes');
+        $this->template('nav','quienes');
+        $this->template('header','quienes');
+        $this->template('wellcome','quienes');
+        $this->template('feet','quienes');
 
     }
 

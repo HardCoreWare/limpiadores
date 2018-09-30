@@ -6,11 +6,11 @@ class productos extends view{
 
     public function __construct(){
 
-        $this->template('head','home');
-        $this->template('nav','home');
-        $this->template('header','home');
-        $this->template('wellcome','home');
-        $this->template('feet','home');
+        $this->template('head','productos');
+        $this->template('nav','productos');
+        $this->template('header','productos');
+        $this->template('wellcome','productos');
+        $this->template('feet','productos');
 
     }
 
