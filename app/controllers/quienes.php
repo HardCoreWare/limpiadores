@@ -1,18 +1,16 @@
 <?php
 
-require_once('template.php');
+require_once('view.php');
 
-class quienes{
+class quienes extends view{
 
-    public function __construct()
-    {
+    public function __construct(){
 
-        $template = new template();
-        $template->head('quienes');
-        $template->nav('quienes');
-        $template->header('quienes');
-        $template->wellcome('quienes');
-        $template->feet('quienes');
+        $this->template('head','home');
+        $this->template('nav','home');
+        $this->template('header','home');
+        $this->template('wellcome','home');
+        $this->template('feet','home');
 
     }
 

@@ -1,18 +1,16 @@
 <?php
 
-require_once('template.php');
+require_once('view.php');
 
-class productos{
+class productos extends view{
 
-    public function __construct()
-    {
+    public function __construct(){
 
-        $template = new template();
-        $template->head('productos');
-        $template->nav('productos');
-        $template->header('productos');
-        $template->wellcome('productos');
-        $template->feet('productos');
+        $this->template('head','home');
+        $this->template('nav','home');
+        $this->template('header','home');
+        $this->template('wellcome','home');
+        $this->template('feet','home');
 
     }
 

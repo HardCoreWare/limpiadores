@@ -6,8 +6,10 @@
 
           'home'=>'img/auto10.png',
           'quienes'=>'img/auto9.png',
-          'servicios'=>'img/auto8.png'
-    
+          'servicios'=>'img/auto8.png',
+          'productos'=>'img/auto7.png',
+          'contacto'=>'img/auto6.png'
+
       );
       
       echo($background[$params]);
@@ -25,7 +27,9 @@
 
         'home'=>'PAGINA PRINCIPAL LIMPIADORES',            
         'quienes'=>'NUESTRA EMPRESA',
-        'servicios'=>'NUESTROS SERVICIOS'
+        'servicios'=>'NUESTROS SERVICIOS',
+        'productos'=>'NUESTROS PRODUCTOS',
+        'contacto'=>'CONTACTANOS'
           
       );
           
@@ -43,9 +47,11 @@
       $sub=array(
 
           "home"=>"Subtitulo de pagina principal",
-          "quienes"=>"subtitulo para nuestra empresa",
-          "servicios"=>"algo sobre nuestros servicios"
-          
+          "quienes"=>"Subtitulo para nuestra empresa",
+          "servicios"=>"Algo sobre nuestros servicios",
+          "productos"=>"Todos nuestros productos",
+          "contacto"=>"Nuestro formulario de contacto"
+
       );
           
       echo($sub[$params]);

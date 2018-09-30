@@ -1,18 +1,16 @@
 <?php
 
-require_once('template.php');
+require_once('view.php');
 
-class home{
+class home extends view{
 
-    public function __construct()
-    {
+    public function __construct(){
 
-        $template = new template();
-        $template->head('home');
-        $template->nav('home');
-        $template->header('home');
-        $template->wellcome('home');
-        $template->feet('home');
+        $this->template('head','home');
+        $this->template('nav','home');
+        $this->template('header','home');
+        $this->template('wellcome','home');
+        $this->template('feet','home');
 
     }
 
