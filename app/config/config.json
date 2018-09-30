@@ -1,0 +1,22 @@
+{
+    "app":{
+        
+        "sitename":"LIMPIADORES",
+
+        "urlroute":"http://localhost/limpiadores"
+    
+    },
+
+    "sql":{
+
+        "host":"localhost",
+
+        "database":"prueba2",
+
+        "user":"root",
+
+        "password":"p455w0rd"
+
+    }
+
+}
