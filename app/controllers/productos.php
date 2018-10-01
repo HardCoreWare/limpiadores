@@ -9,8 +9,6 @@ class productos extends view{
         $this->template('head','productos');
         $this->template('nav','productos');
         $this->template('header','productos');
-        $this->template('wellcome','productos');
-        $this->template('galeria','productos');
         $this->template('feet','productos');
 
     }
