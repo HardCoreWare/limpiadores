@@ -9,7 +9,7 @@ class servicios extends view{
         $this->template('head','servicios');
         $this->template('nav','servicios');
         $this->template('header','servicios');
-        $this->template('wellcome','servicios');
+        $this->template('servicios','servicios');
         $this->template('feet','servicios');
 
     }
