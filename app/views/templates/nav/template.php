@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="quienes">QUIENES SOMOS</a>
+              <a class="nav-link js-scroll-trigger" href="#about">QUIENES SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="servicios">SERVICIOS</a>
+              <a class="nav-link js-scroll-trigger" href="#services">SERVICIOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="productos">PRODUCTOS</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">PRODUCTOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="contacto">CONTACTO</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">CONTACTO</a>
             </li>
           </ul>
         </div>
