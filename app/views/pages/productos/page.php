@@ -56,7 +56,7 @@
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
-                    Category
+                    Linea Industrial
                   </div>
                   <div class="project-name">
                     Productos Industriales
