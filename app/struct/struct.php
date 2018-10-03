@@ -1,7 +1,5 @@
 <?php
 
-
-
-$json = file_get_contents();
+    $json = file_get_contents();
 
 ?>

@@ -5,12 +5,18 @@
     "about":{"title":"LOREM IPSUM","sub":"lorem ipsum"},
 
     "services":[
+
         {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""},
+
         {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""}
     ],
 
     "products":[],
 
-    "contact":{}
+    "contact":{
+
+        
+
+    }
 
 }
