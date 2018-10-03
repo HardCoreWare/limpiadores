@@ -1,0 +1,16 @@
+{
+
+    "header":{"title":"LOREM IPSUM","sub":"lorem ipsum","img":"img/auto8.png"},
+
+    "about":{"title":"LOREM IPSUM","sub":"lorem ipsum"},
+
+    "services":[
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""},
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""}
+    ],
+
+    "products":[],
+
+    "contact":{}
+
+}
