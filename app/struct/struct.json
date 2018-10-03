@@ -27,9 +27,9 @@
 
     "products":[
 
-        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"img/auto2.png"},
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","img":"img/auto2.png"},
 
-        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"img/auto2.png"}
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","img":"img/auto2.png"}
 
     ],
 

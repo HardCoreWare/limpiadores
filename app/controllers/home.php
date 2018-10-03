@@ -1,7 +1,6 @@
 <?php
 
 require_once('view.php');
-
 require_once('../app/struct/struct.php');
 
 class home extends view{
@@ -13,6 +12,7 @@ class home extends view{
         $header_params = $struct->header();
         $wellcome_params = $struct->about();
         $services_params = $struct->services();
+        $products_params = $struct->products();
         $contact_params = $struct->contact();
 
         $this->template('head');
@@ -22,7 +22,7 @@ class home extends view{
         $this->template('about',$wellcome_params);
 
         $this->template('services',$services_params);
-        $this->template('products');
+        $this->template('products',$products_params);
         
         $this->template('contact',$contact_params);
         $this->template('feet');

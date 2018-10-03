@@ -36,6 +36,12 @@ class struct{
 
     }
 
+    public function products(){
+
+        return $this->struct->products;
+
+    }
+
     public function contact(){
 
         return $this->struct->contact;
