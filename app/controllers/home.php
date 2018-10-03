@@ -11,16 +11,19 @@ class home extends view{
         $struct = new struct('../app/struct/struct.json');
         $header_params = $struct->header();
         $wellcome_params = $struct->about();
-
+        $services_params = $struct->services();
+        $contact_params = $struct->contact();
 
         $this->template('head');
         $this->template('nav');
 
         $this->template('header',$header_params);
-        $this->template('wellcome',$wellcome_params);
-        $this->template('services');
+        $this->template('about',$wellcome_params);
+
+        $this->template('services',$services_params);
         $this->template('products');
-        $this->template('contact');
+        
+        $this->template('contact',$contact_params);
         $this->template('feet');
 
     }

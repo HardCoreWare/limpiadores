@@ -36,13 +36,11 @@ class struct{
 
     }
 
-    public function services(){
+    public function contact(){
 
-        return $this->struct->services;
+        return $this->struct->contact;
 
     }
-
-    
 
 }
 

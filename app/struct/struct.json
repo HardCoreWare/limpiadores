@@ -18,12 +18,12 @@
         "img":"img/auto8.png"
     },
 
-    "services":[
+    "services":{"title":"LOREM IPSUM","items":[
 
-        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""},
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"fa-flask"},
 
-        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""}
-    ],
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"fa-briefcase"}
+    ]},
 
     "products":[
 
@@ -37,7 +37,11 @@
 
         "title":"LOREM IPSUM",
 
-        "sub":"lorem ipsum"
+        "sub":"lorem ipsum",
+
+        "phone":{"icon":"fa-phone","label":"XXX-XXX-XXX"},
+
+        "mail":{"icon":"fa-envelope","label":"XXXX@XXXX"}
 
     }
 

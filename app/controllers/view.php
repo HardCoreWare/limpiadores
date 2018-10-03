@@ -10,12 +10,6 @@ class view
 
     }
 
-    public function page($page,$params=[]){
-
-        require_once('../app/views/pages/'.$page.'/page.php');
-
-    }
-
 }
 
 ?>
