@@ -9,6 +9,7 @@ class home extends view{
     public function __construct(){
 
         $struct = new struct('../app/struct/struct.json');
+
         $header_params = $struct->header();
         $wellcome_params = $struct->about();
         $services_params = $struct->services();
