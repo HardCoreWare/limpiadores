@@ -3,7 +3,7 @@
       
     <?php
 
-        echo($params['img']);
+        echo($params->img);
 
     ?>
     );">
@@ -15,7 +15,7 @@
               <strong>
 
       <?php
-      echo($params['title']);
+      echo($params->title);
       ?>
 
               </strong>
@@ -26,7 +26,7 @@
             <p class="text-faded mb-5">
             
       <?php
-      echo($params['sub']);
+      echo($params->sub);
       ?>
 
             </p>

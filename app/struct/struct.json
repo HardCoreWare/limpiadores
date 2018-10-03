@@ -1,8 +1,22 @@
 {
 
-    "header":{"title":"LOREM IPSUM","sub":"lorem ipsum","img":"img/auto8.png"},
+    "header":{
 
-    "about":{"title":"LOREM IPSUM","sub":"lorem ipsum"},
+        "title":"LOREM IPSUM",
+        
+        "sub":"lorem ipsum",
+        
+        "img":"img/auto8.png"
+    },
+
+    "about":{
+
+        "title":"LOREM IPSUM",
+
+        "sub":"lorem ipsum",
+
+        "img":"img/auto8.png"
+    },
 
     "services":[
 
@@ -11,11 +25,19 @@
         {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":""}
     ],
 
-    "products":[],
+    "products":[
+
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"img/auto2.png"},
+
+        {"title":"LOREM IPSUM","sub":"lorem ipsum","icon":"img/auto2.png"}
+
+    ],
 
     "contact":{
 
-        
+        "title":"LOREM IPSUM",
+
+        "sub":"lorem ipsum"
 
     }
 
