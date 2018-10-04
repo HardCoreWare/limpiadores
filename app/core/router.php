@@ -4,8 +4,17 @@ class router {
 
     //by default
     private $controller='test';
-    private $method = '';
-    private $parameters = [];
+    private $method = 'tester';
+    private $parameters = ['hola'];
+
+
+    public function __construct(){
+        
+        $this->readUrl();
+        $this->loadController();
+        $this->loadMethod();
+
+    }
 
 
     // read and cuts the url in 3
@@ -17,11 +26,8 @@ class router {
             $url=filter_var($url,FILTER_SANITIZE_URL);
             $url=explode('/',$url);
             $this->controller = $url[0]; unset($url[0]);
-            if(isset($url[1])){
             $this->method = $url[1];  unset($url[1]);
             $this->parameters = $url ? array_values($url) : [];
-            }
-            
 
         }
 
@@ -51,7 +57,7 @@ class router {
     // load method with params
     public function loadMethod(){
 
-        if(method_exists($this->controller,$this->method)&&(isset($this->method))){
+        if(method_exists($this->controller,$this->method)){
 
             call_user_func_array([$this->controller,$this->method],$this->parameters);
 
