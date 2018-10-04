@@ -3,9 +3,9 @@
 class router {
 
     //by default
-    private $controller='test';
-    private $method = 'tester';
-    private $parameters = ['hola'];
+    private $controller='home';
+    private $method;
+    private $parameters = [];
 
 
     public function __construct(){
@@ -26,8 +26,13 @@ class router {
             $url=filter_var($url,FILTER_SANITIZE_URL);
             $url=explode('/',$url);
             $this->controller = $url[0]; unset($url[0]);
-            $this->method = $url[1];  unset($url[1]);
-            $this->parameters = $url ? array_values($url) : [];
+
+            if(isset($url[1])){
+                
+                $this->method = $url[1];  unset($url[1]);
+                $this->parameters = $url ? array_values($url) : [];
+            }
+
 
         }
 

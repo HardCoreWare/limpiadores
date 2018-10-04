@@ -10,6 +10,7 @@ define('APP_DIR',dirname(dirname(__FILE__)));
 //URL
 define('APP_URL',$object->app->urlroute);
 
+//SITE_NAME
 define('SITE_NAME',$object->app->sitename);
 
 

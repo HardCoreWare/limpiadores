@@ -3,13 +3,13 @@
         
         "sitename":"LIMPIADORES",
 
-        "urlroute":"http://localhost/limpiadores"
+        "urlroute":"http://192.168.1.95/limpiadores"
     
     },
 
     "sql":{
 
-        "host":"localhost",
+        "host":"192.168.1.95",
 
         "database":"prueba2",
 
